@@ -242,14 +242,20 @@ h3 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  /* identical to box height, or 200% */
-
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
+}
+
+.portfolio-pic {
+  margin-bottom: 20px;
 }
 
 .button-portfolio {
   background: #f5f4fa;
   border-radius: 4px;
+}
+.list-item:last-child {
+  margin-bottom: 50px;
 }
 
 .button-portfolio:focus,
