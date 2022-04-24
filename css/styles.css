@@ -48,6 +48,8 @@ h3 {
   margin-right: 0;
 }
 
+
+}
 .header-background {
   color: #ffffff;
   /* border: solid tomato 3px; */
@@ -122,14 +124,13 @@ h3 {
 }
 .about-container {
   margin-bottom: 94px;
-  padding-left: 0;
+    /* background-color: pink; */
 }
 
 .about-list {
   display: flex;
-padding-left: 15px;
-padding-right: 15px;
 }
+
 .box {
 max-width: 270px;
 height: 101px;
@@ -181,13 +182,13 @@ margin-right: auto;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 94px;
+    /* background-color: pink; */
 }
 
 
 .projects-list {
   display: flex;
-  justify-content: center;
-  padding-left: 15px;
+  justify-content: center
 }
 
 .projects-pic {
