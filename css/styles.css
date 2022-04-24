@@ -8,55 +8,50 @@ body {
   color: var(--main-text-color);
   font-family: Roboto, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
 }
+ul {
+  list-style: none;
+  text-decoration: none;
+}
 
-p,
-h2,
-h3 {
-  margin-top: 0px;
-  margin-bottom: 0px;
+a {
+  text-decoration: none;
 }
 
 .header-background {
   color: #ffffff;
 }
 
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
+.text-decor {
+  text-decoration: none;
 }
 
 /* Logo */
 
 .logo {
-  font-family: Raleway sans-serif;
   color: var(--main-text-color);
+}
+.logo-part {
+  color: #2196f3;
+}
+.logo-link {
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: inline-block;
 }
-.logo-part {
-  font-family: Raleway sans-serif;
-  color: #2196f3;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  display: inline-block;
-}
-.logo-link {
-  text-decoration: none;
-}
-
+.logo-footer {
+    color: white;}
 /* hero */
-
+.hero-section {
+  background-color: #2f303a;
+  text-align: center;
+}
+.hero-title {
+  margin-top: 0px;
+}
 .hero-text {
   font-weight: 900;
   font-size: 44px;
@@ -67,41 +62,16 @@ h3 {
   color: #ffffff;
 }
 
-.hero-section {
-  background-color: #2f303a;
-  margin-bottom: 0;
-  outline: solid 2px tomato;
-  text-align: center;
-}
-.hero-title {
-  margin-top: 0;
-}
-
-.hero-container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: green;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 94px;
-}
-.about-container {
-  background-color: aquamarine;
-  margin-bottom: 94px;
-}
-
-.button-text:hover,
+/* .button-text:hover,
 .button-text:focus {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  text-align: center; */
 }
 
 /* about section */
 
 .style-none {
   list-style: none;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .about-title {
@@ -111,9 +81,9 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   list-style: none;
-  margin-top: 0px;
-  margin-bottom: 10px;
 }
+
+
 .about-description {
   color: var(--secondary-color);
   font-size: 14px;
@@ -121,29 +91,14 @@ h3 {
   /* or 171% */
   letter-spacing: 0.03em;
   list-style: none;
-  margin-bottom: 0px;
 }
-
-/* our section */
-
 .our-projects {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
-  margin-top: 0px;
 }
-
-.our-work-container {
-  background-color: rebeccapurple;
-  margin-bottom: 94px;
-}
-
-/* .our-work-pic {
-  margin-bottom: 100px;
-} */
 
 /* our team */
 .team {
@@ -152,7 +107,11 @@ h3 {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
+  ;
+}
+
+.section-color {
+  background-color: #F5F4FA
 }
 
 .team-names {
@@ -161,7 +120,6 @@ h3 {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 10px;
 }
 
 .job-name {
@@ -170,15 +128,6 @@ h3 {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-}
-
-.our-team-container {
-  text-align: center;
-  background-color: darkkhaki;
-  margin-bottom: 0px;
-}
-.team-pic {
-  padding-bottom: 30px;
 }
 
 /* site-nav */
@@ -206,12 +155,15 @@ h3 {
 /* contacts nav */
 .contacts-nav {
   list-style: none;
-  margin-bottom: 0;
 }
 
 .link-contacts {
   color: var(--secondary-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .link-contacts:focus,
 .link-contacts:hover {
@@ -224,11 +176,12 @@ h3 {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  text-align: center;
 }
 
 .button:hover,
 .button:focus {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: #188CE8;
 }
 
 .cursor {
@@ -241,20 +194,12 @@ h3 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
-  margin-bottom: 4px;
-}
-
-.portfolio-pic {
-  margin-bottom: 20px;
-}
+list-style: none;
+letter-spacing: 0.06em;}
 
 .button-portfolio {
-  background: #f5f4fa;
+  background-color: #f5f4fa;
   border-radius: 4px;
-}
-.list-item:last-child {
-  margin-bottom: 50px;
 }
 
 .button-portfolio:focus,
@@ -271,6 +216,7 @@ h3 {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  list-style: none;
 }
 .adress {
   font-weight: 400;
@@ -279,7 +225,6 @@ h3 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
-  margin-top: 20px;
 }
 
 .footer {
@@ -293,9 +238,4 @@ h3 {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
-}
-
-.footer-container {
-  outline: solid 1px tomato;
-  margin-top: 0px;
 }
