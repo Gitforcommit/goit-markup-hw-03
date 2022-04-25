@@ -38,6 +38,7 @@ h3 {
 .header-content {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .site-nav > .links {
@@ -55,7 +56,6 @@ h3 {
   /* border: solid tomato 3px; */
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #ECECEC;
 }
 
 .text-decor {
@@ -422,7 +422,7 @@ margin-bottom: 30px;
 }
 .card-content{
   border: 1px solid #EEEEEE;
-  margin-top: 0;
+  margin-top: -5px;
 }
 .portfolio-list:nth-child(n+6){
   margin-bottom: 0;
