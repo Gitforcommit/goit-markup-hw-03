@@ -25,6 +25,14 @@ h3 {
 }
 
 /* Header */
+.sections {
+  margin-bottom: 94px
+}
+
+
+.main-nav {
+  margin-left: 93px;
+}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -38,7 +46,6 @@ h3 {
 .header-content {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ECECEC;
 }
 
 .site-nav > .links {
@@ -49,13 +56,17 @@ h3 {
   margin-right: 0;
 }
 
+.link {
+display: block;
+padding: 32px 0px 32px 0px;
+}
 
 }
 .header-background {
   color: #ffffff;
-  /* border: solid tomato 3px; */
   margin-left: auto;
   margin-right: auto;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .text-decor {
@@ -87,7 +98,18 @@ h3 {
 /* hero */
 /* hero */
 
-.hero-text {
+
+.hero-section {
+  background-color: #2f303a;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+.hero-title {
+  margin-top: 0px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -96,22 +118,6 @@ h3 {
   line-height: 60px;
   text-align: center;
   color: #ffffff;
-  padding-top: 200px;
-}
-
-.hero-section {
-  background-color: #2f303a;
-  margin-bottom: 0;
-  /* outline: solid 2px tomato; */
-  text-align: center;
-  margin-bottom: 94px;
-  max-width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.hero-title {
-  margin-top: 0px;t
-  text-align: center;
 }
 
 .hero-container {
@@ -120,15 +126,13 @@ h3 {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
 }
-.about-container {
-  margin-bottom: 94px;
-    /* background-color: pink; */
-}
+
 
 .about-list {
   display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .box {
@@ -172,22 +176,26 @@ margin-right: auto;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  display: flex;
-  justify-content: center;
+  margin-bottom: 50px;
 }
 
-.our-work {
+/* .our-work {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 94px;
-    /* background-color: pink; */
-}
+} */
 
 
 .projects-list {
   display: flex;
-  justify-content: center
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.project-img {
+  display: block;
 }
 
 .projects-pic {
@@ -274,7 +282,8 @@ margin-left: 0;
 .site-nav {
   display: flex;
   list-style: none;
-  margin-left: 93px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .site-nav .link {
@@ -302,9 +311,15 @@ margin-left: 0;
   list-style: none;
   display: flex;
   margin-left: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .contacts-nav .links + .links {
   margin-left: 50px;
+}
+
+.links:nth-child(3){
+  margin-right: 0;
 }
 
 .link-contacts {
@@ -336,7 +351,6 @@ margin-left: 0;
   text-align: center;
   width: 200px;
   height: 50px;
-  margin-bottom: 200px;
   border-style: none;
 }
 
