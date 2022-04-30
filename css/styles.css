@@ -12,6 +12,7 @@ ul {
   list-style: none;
   text-decoration: none;
   padding-left: 0;
+  margin-top: 0;
 }
 
 a {
@@ -27,6 +28,10 @@ h3 {
 /* Header */
 .sections {
   margin-bottom: 94px
+}
+
+.section-about-us {
+  padding: 94px 0px 94px 0px;
 }
 
 
@@ -62,6 +67,7 @@ padding: 32px 0px 32px 0px;
 }
 
 }
+
 .header-background {
   color: #ffffff;
   margin-left: auto;
@@ -214,7 +220,6 @@ margin-right: auto;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-  padding-top: 94px;
 }
 
 .team-names {
@@ -223,25 +228,24 @@ margin-right: auto;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .team-list {
   display: flex;
-  padding-bottom: 94px;
   padding-left: 0;
   margin: 0;
   justify-content: center;
 }
 
 .team-card {
-  margin-left: 30px;
-  width: 270px;
-height: 368px;
+margin-left: 30px;
+width: 270px;
 background-color: white;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 }
+
 
 .team-card:first-child {
 margin-left: 0;
@@ -249,6 +253,10 @@ margin-left: 0;
 
 .team-card:nth-child(4n){
   margin-right: 0;
+}
+
+.team-description {
+  padding: 30px 0px 30px 0px;
 }
 
 .job-name {
@@ -259,23 +267,13 @@ margin-left: 0;
   letter-spacing: 0.03em;
 }
 
-.our-team-container {
-  text-align: center;
-  /* background-color: darkkhaki; */
-  margin-bottom: 0px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.team-pic {
-  padding-bottom: 30px;
-}
 
 .section-color {
   background-color: #f5f4fa;
   max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
+  padding: 94px 0px 94px 0px;
 }
 
 /* site-nav */
@@ -294,9 +292,7 @@ margin-left: 0;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.logo-together {
-  padding-top: 45px;
-}
+
 
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -333,9 +329,6 @@ margin-left: 0;
 }
 
   
-.footer-content{
-  padding-bottom: 90px;
-}
 
 .link-contacts:focus,
 .link-contacts:hover {
@@ -482,6 +475,7 @@ margin-bottom: 30px;
   max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
+  padding: 60px 0px 60px 0px;
 }
 .adress a {
   font-weight: 400;
